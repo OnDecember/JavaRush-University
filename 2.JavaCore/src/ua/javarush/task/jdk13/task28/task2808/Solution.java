@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.stream.Collectors;
 
-/* 
+/*
 Мені не встигнути
 */
 
@@ -33,7 +33,6 @@ public class Solution {
 
     public static List<String> completeConcert(List<FutureTask<String>> taskList) {
         return taskList.stream()
-                .parallel()
                 .map(Solution::convert)
                 .filter(Objects::nonNull)
                 .collect(Collectors.toList());
