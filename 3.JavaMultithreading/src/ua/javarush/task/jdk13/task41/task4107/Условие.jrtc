@@ -1,0 +1,21 @@
+taskKey="ua.javarush.task.jdk13.task41.task4107"\n\nКузня кадрів
+
+Відпрацюй навичку створення фабричних методів:
+1. У пакеті developers створи інтерфейс Developer і приведи до нього всі класи пакета.
+В інтерфейсі мають бути методи study та writeCode.
+2. У кореневій папці завдання створи пакет factory, а в ньому &ndash; абстрактний клас ProgrammingCourse.
+У класі додай публічний абстрактний метод createDeveloper, який повертає Developer (це і буде твій фабричний метод).
+Ще додай публічний void метод educateStudent, який за допомогою createDeveloper створює об&#39;єкт Developer
+і викликає у нього метод study.
+3. У пакеті factory створи три класи: JavaRush, KotlinCourse та DotNetCourse.
+Додай їм успадкування від ProgrammingCourse. Реалізуй у них фабричний метод,
+який повинен створювати та повертати програміста відповідного типу.
+4. Розкоментуй код у класі Solution і перевір, чи все працює.
+
+
+Требования:
+1.	У пакеті developers має бути інтерфейс Developer. Інші класи в пакеті повинні його реалізовувати.
+2.	У пакеті factory повинен бути клас ProgrammingCourse з методами createDeveloper та educateStudent відповідно до умови.
+3.	У пакеті factory повинні бути класи JavaRush, KotlinCourse та DotNetCourse, що реалізовані відповідно до умови.
+
+
