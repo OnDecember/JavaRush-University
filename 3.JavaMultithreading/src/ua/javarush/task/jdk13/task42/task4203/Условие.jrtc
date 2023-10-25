@@ -1,0 +1,14 @@
+taskKey="ua.javarush.task.jdk13.task42.task4203"\n\n10 плюс 20 буде 20
+
+Розберися, що має робити програма. Виправ її таким чином, щоб у підсумку в списку було 20 чисел.
+
+Оптимізуй код програми за допомогою одного з методів CopyOnWriteArrayList.
+
+
+Требования:
+1.	Клас Solution повинен містити private final поле Integer[] ARRAY.
+2.	Клас Solution повинен містити private final поле CopyOnWriteArrayList&lt;Integer&gt; LIST.
+3.	У результаті роботи програми у списку LIST має бути 20 елементів.
+4.	У методі main потрібно викликати метод addIfAbsent об&#39;єкта LIST (щонайменше 20 разів).
+
+
