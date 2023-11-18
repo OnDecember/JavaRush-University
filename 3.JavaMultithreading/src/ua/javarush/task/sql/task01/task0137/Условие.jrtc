@@ -1,0 +1,10 @@
+taskKey="ua.javarush.task.sql.task01.task0137"\n\nОператор DISTINCT
+
+Вибрати з таблиці ip2country всі унікальні значення колонки country_name, у яких у назві (колонка country_name) немає символу пропуску.
+Потрібно використовувати: DISTINCT, WHERE та NOT LIKE.
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+

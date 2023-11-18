@@ -1,0 +1,9 @@
+taskKey="ua.javarush.task.sql.task01.task0147"\n\nДії з NULL
+
+Вибрати з таблиці parts колонки required, identifier, description (у вказаному порядку), у яких значення поля description дорівнює NULL АБО значення поля required дорівнює true.
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+

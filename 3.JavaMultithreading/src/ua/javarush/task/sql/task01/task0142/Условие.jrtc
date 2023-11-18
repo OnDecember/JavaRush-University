@@ -1,0 +1,11 @@
+taskKey="ua.javarush.task.sql.task01.task0142"\n\nСортування за кількома колонками
+
+Вибрати з таблиці parts колонки id, identifier, description (у вказаному порядку).
+Результат відсортувати за полем identifier &mdash; за спаданням, за полем required &mdash; за спаданням і за полем description &mdash; за зростанням.
+Потрібно використовувати: ORDER BY, DESC, ASC.
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+
