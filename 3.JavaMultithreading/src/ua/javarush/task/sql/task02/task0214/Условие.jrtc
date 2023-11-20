@@ -1,0 +1,13 @@
+taskKey="ua.javarush.task.sql.task02.task0214"\n\nХто є хто
+
+Напиши запит, який згідно з даними з поля experience таблиці developers поверне таку інформацію:
+- &#39;junior&#39;, якщо значення experience менше 1
+- &#39;middle&#39;, якщо значення experience менше 3
+- &#39;senior&#39;, якщо значення experience менше 5
+Використовуй CASE виду CASE WHEN condition1 THEN result1 ... FROM table
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+
