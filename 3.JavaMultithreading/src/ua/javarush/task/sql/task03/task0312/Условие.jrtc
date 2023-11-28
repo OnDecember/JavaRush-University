@@ -1,0 +1,14 @@
+taskKey="ua.javarush.task.sql.task03.task0312"\n\nПрацюємо з WHERE
+
+У цьому завданні тобі буде потрібно:
+1. Вибрати колонки rank і name із таблиці top_retailers, але тимчасово замінити звернення до колонки top_retailers.rank на company_rank,
+а до колонки top_retailers.name &mdash; на company_name.
+2. Вибрати стовпчик annual_revenue_billions з таблиці suppliers, тимчасово замінивши назву на supplier_revenue.
+3. Додати фільтр за колонкою annual_revenue_billions таблиці suppliers, щоб у результаті відображалися suppliers лише з доходом вище 25.
+Використовуй AS та WHERE.
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+

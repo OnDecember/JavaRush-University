@@ -1,0 +1,14 @@
+taskKey="ua.javarush.task.sql.task03.task0327"\n\nRIGHT JOIN і WHERE
+
+У цьому завданні тобі буде потрібно:
+1. Вибрати стовпчик city з таблиці customers і стовпчик store_id з таблиці orders.
+2. Об&#39;єднати таблиці customers та orders оператором RIGHT JOIN.
+3. Використовуючи оператор ON, додати умову, що колонка customer_id таблиці customers дорівнює колонці customer_id таблиці orders.
+4. Використовуючи оператори WHERE і AND, додати умову, що order_status і total_cost таблиці orders повинні дорівнювати &#39;SHIPPED&#39; та більше 100 відповідно.
+Використовуй оператори RIGHT JOIN, ON, WHERE та AND.
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+

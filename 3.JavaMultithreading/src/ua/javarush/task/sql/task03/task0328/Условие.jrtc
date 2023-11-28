@@ -1,0 +1,14 @@
+taskKey="ua.javarush.task.sql.task03.task0328"\n\nПродовжуємо роботу з RIGHT JOIN і WHERE
+
+У цьому завданні тобі буде потрібно:
+1. Вибрати колонку phone з таблиці customers та перейменувати її на cust_phone (використовуй оператор AS). Також треба вибрати колонки order_date, total_cost та store_id з таблиці orders.
+2. Об&#39;єднати таблиці customers та orders оператором RIGHT JOIN.
+3. Використовуючи оператор ON, додати умову, що колонка customer_id таблиці customers дорівнює колонці customer_id таблиці orders.
+4. Використовуючи оператори WHERE і AND, додати умову, що колонка city таблиці customers повинна дорівнювати &#39;Dallas&#39;, а колонка order_status таблиці orders повинна дорівнювати &#39;PROCESSING&#39;.
+Використовуй оператори AS, RIGHT JOIN, ON, WHERE та AND.
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+

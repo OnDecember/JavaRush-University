@@ -1,0 +1,14 @@
+taskKey="ua.javarush.task.sql.task03.task0315"\n\nAS, WHERE та аліас таблиць
+
+У цьому завданні тобі буде потрібно:
+1. Вибрати колонку hq_location із таблиці top_retailers, тимчасово замінити ім&#39;я колонки на ret_location.
+2. Вибрати колонку annual_revenue_billions із таблиці suppliers, тимчасово замінити ім&#39;я колонки на sup_revenue.
+3. Тимчасово замінити назви таблиць з top_retailers на ret і suppliers &mdash; на sup.
+4. Виключити з пошуку всі локації &#39;USA&#39; таблиці top_retailers.
+Використовуй AS та WHERE.
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+

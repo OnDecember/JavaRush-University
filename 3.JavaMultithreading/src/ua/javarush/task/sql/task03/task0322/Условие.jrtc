@@ -1,0 +1,14 @@
+taskKey="ua.javarush.task.sql.task03.task0322"\n\nПрацюємо з JOIN, ON, AS, WHERE і OR
+
+У цьому завданні тобі буде потрібно:
+1. Вибрати колонки customer_id та email з таблиці customers та колонки order_id та order_status з таблиці orders.
+2. Об&#39;єднати таблиці customers та orders оператором JOIN, але водночас через оператор AS тимчасово замінити назву таблиці customers на c, а таблиці orders &mdash; на o.
+3. За допомогою оператора ON додати умову, що колонка customer_id таблиці customers дорівнює колонці customer_id таблиці orders.
+4. За допомогою оператора WHERE додати умову, що order_status таблиці orders має містити &#39;PAID&#39; або (використовуй OR) &#39;PROCESSING&#39;.
+Використовуй оператори JOIN, ON, AS, WHERE та OR.
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+

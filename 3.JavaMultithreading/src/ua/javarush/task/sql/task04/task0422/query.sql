@@ -1,0 +1,4 @@
+-- Write your code here:
+SELECT NOW(),
+       ADDTIME(NOW() INTERVAL NULL SECOND),
+       ADDTIME(NOW() INTERVAL 33 SECOND);

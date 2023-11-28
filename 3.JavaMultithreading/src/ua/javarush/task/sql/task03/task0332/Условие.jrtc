@@ -1,0 +1,15 @@
+taskKey="ua.javarush.task.sql.task03.task0332"\n\nRIGHT JOIN, аліаси, WHERE і GROUP BY
+
+У цьому завданні тобі буде потрібно:
+1. Вибрати колонку last_name з таблиці authors, перейменувавши її на author, і колонки genre та date_released з таблиці books, перейменувавши genre на book_genre.
+2. Об&#39;єднати таблиці authors і books оператором RIGHT JOIN, перейменувавши на аuth і book, відповідно.
+3. Використовуючи оператор ON, додати умову, що колонка author_id таблиці authors дорівнює колонці author_id таблиці books.
+4. Використовуючи оператор WHERE, додати умову, що date_released таблиці books має бути менше 1900.
+5. Використовуючи оператор GROUP BY, згрупуй результат за колонками genre та date_released таблиці books.
+Використовуй оператори RIGHT JOIN, AS, ON, WHERE та GROUP BY.
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+

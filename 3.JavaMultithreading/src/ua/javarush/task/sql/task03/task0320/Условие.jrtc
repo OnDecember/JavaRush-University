@@ -1,0 +1,14 @@
+taskKey="ua.javarush.task.sql.task03.task0320"\n\nПрацюємо з JOIN, AS, ON і WHERE
+
+У цьому завданні тобі буде потрібно:
+1. Вибрати колонки ret_name і ret_revenue з таблиці top_retailers, колонки sup_name і sup_revenue &mdash; з таблиці suppliers.
+2. Об&#39;єднати таблиці оператором JOIN, надавши їм у своїй тимчасові назви retailer і supplier (для top_retailers і suppliers, відповідно).
+3. Додати умову, що ret_revenue дорівнює sup_revenue.
+4. Додати умову, що sup_revenue має бути більше 50.
+Використовуй оператори JOIN, AS, ON та WHERE.
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+
