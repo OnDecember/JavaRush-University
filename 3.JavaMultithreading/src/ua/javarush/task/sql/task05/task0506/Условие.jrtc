@@ -1,0 +1,9 @@
+taskKey="ua.javarush.task.sql.task05.task0506"\n\nЗміна 1
+
+У таблиці publisher у видавця під назвою &#39;Wordsworth Editions&#39; зміни назву на &#39;Author&#39;&#39;s Edition&#39;.
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+

@@ -1,0 +1,13 @@
+taskKey="ua.javarush.task.sql.task05.task0501"\n\nВставка 1
+
+Додай до таблиці publisher три видавці:
+id 	name
+1 	Penguin Books
+2 	Chatto &amp; Windus
+3 	Wordsworth Editions
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+

@@ -1,0 +1,11 @@
+taskKey="ua.javarush.task.sql.task05.task0507"\n\nЗміна 2
+
+Внеси зміни до таблиці part:
+- у деталі з номером 92909 зміни назву на &#39;Technic, Steering Wheel Hub 3 Pin Round&#39;;
+- у деталі з номером 19916 зміни назву на &#39;Minifigure, Headgear Helmet SW Darth Vader Type 2 Top&#39;.
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+
