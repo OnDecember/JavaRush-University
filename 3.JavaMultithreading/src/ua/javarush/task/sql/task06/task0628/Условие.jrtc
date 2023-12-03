@@ -1,0 +1,9 @@
+taskKey="ua.javarush.task.sql.task06.task0628"\n\nВидаляємо індекси
+
+Напиши запит, який видалить індекси name_index та salary_index з таблиці employee. Використовуй ALTER TABLE.
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+

@@ -1,0 +1,9 @@
+taskKey="ua.javarush.task.sql.task06.task0626"\n\nІндексуємо позицію та зарплату
+
+Напиши запит, який створить індекси в таблиці employee: position_index за колонкою position і salary_index за колонкою salary.
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+
