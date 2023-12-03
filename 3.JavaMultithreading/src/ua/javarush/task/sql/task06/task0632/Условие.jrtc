@@ -1,0 +1,10 @@
+taskKey="ua.javarush.task.sql.task06.task0632"\n\nДодавання до таблиці FOREIGN KEY з опціями
+
+Напиши скрипт додавання FOREIGN KEY з опціями ON UPDATE CASCADE, ON DELETE SET NULL до таблиці event
+за полем user_id із посиланням на поле ID таблиці users.
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+

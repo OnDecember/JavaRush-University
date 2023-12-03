@@ -1,0 +1,9 @@
+taskKey="ua.javarush.task.sql.task06.task0609"\n\nДодаємо адреси
+
+Додай до таблиці sale_addresses інформацію з колонок street, city, state, zip_code та country таблиці customers, але без даних з країни під назвою Testostan.
+
+
+Требования:
+1.	Запит має бути реалізований згідно з умовою.
+
+
