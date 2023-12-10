@@ -1,0 +1,16 @@
+taskKey="ua.javarush.task.sql.task08.task0805"\n\nЗбереження Java-об'єктів
+
+У методі main створи підключення до БД за допомогою методу getConnection(String, String, String) класу DriverManager.
+Використовуй URL &quot;jdbc:mysql://localhost:3306/test&quot;, користувача &quot;root&quot; і такий самий пароль.
+Отримай PreparedStatement, використовуючи метод prepareStatement, передавши як параметр змінну sql.
+Додай до таблиці всіх співробітників із безлічі employees.
+
+Закрий Statement та Connection.
+
+
+Требования:
+1.	У методі main має створюватися підключення до БД відповідно до умови.
+2.	У методі main у Connection повинен викликатися метод prepareStatement відповідно до умови.
+3.	До таблиці employee додадуться п&#39;ять нових записів.
+
+

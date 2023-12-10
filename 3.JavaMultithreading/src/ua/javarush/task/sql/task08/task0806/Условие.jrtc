@@ -1,0 +1,17 @@
+taskKey="ua.javarush.task.sql.task08.task0806"\n\nЗчитування Java-об'єктів з БД
+
+У методі main створи підключення до БД за допомогою методу getConnection(String, String, String) класу DriverManager.
+Використовуй URL &quot;jdbc:mysql://localhost:3306/test&quot;, користувача &quot;root&quot; і такий самий пароль.
+Отримай Statement, використовуючи метод createStatement без параметрів.
+Отримай усі рядки та колонки з таблиці employee.
+Перетвори їх на об&#39;єкти Employee і помісти їх до множини employees.
+
+Закрий Statement та Connection.
+
+
+Требования:
+1.	У методі main має створюватися підключення до БД відповідно до умови.
+2.	У методі main у Connection повинен викликатися метод createStatement без параметрів.
+3.	Всі співробітники з БД повинні бути поміщені до статичної змінної працівників.
+
+

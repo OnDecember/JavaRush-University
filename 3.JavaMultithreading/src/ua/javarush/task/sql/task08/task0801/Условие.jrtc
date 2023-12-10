@@ -1,0 +1,20 @@
+taskKey="ua.javarush.task.sql.task08.task0801"\n\nРобота з транзакціями
+
+У методі main створи підключення до БД за допомогою методу getConnection(String, String, String) класу DriverManager.
+Використовуй URL &quot;jdbc:mysql://localhost:3306/test&quot;, користувача &quot;root&quot; і такий самий пароль.
+Вимкни AutoCommit.
+Отримай Statement, використовуючи метод createStatement без параметрів.
+
+Співробітнику (таблиця employee) з полем name, що дорівнює Diego, збільш значення salary на 2000.
+Співробітнику (таблиця employee) з полем name, що дорівнює Amigo, збільш значення salary на 500.
+Виконай commit.
+
+Закрий Statement та Connection.
+
+
+Требования:
+1.	У методі main має створюватися підключення до БД та вимикатися AutoCommit згідно з умовою.
+2.	У методі main у підключення повинен викликатися метод createStatement без параметрів.
+3.	До бази даних має бути внесено дві зміни та виконано коміт згідно з умовою.
+
+
