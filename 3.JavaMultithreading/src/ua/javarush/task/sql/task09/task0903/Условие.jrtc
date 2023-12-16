@@ -1,0 +1,19 @@
+taskKey="ua.javarush.task.sql.task09.task0903"\n\nConfiguration
+
+Якщо раніше не підключав залежності, то підключи їх. Для цього натисни Alt+Ctrl+Shift+S (в IDEA), вкладка Libraries.
+Залежності можна завантажити тут: https://javarush.com/downloads/ide/javarush/hibernate.zip
+Архів розпакуй, і кожну залежність додай до модуля. Ця частина завдання не перевіряється, але якщо її не зробити, ти не зможеш локально виконувати код.
+
+Додай до методу main код для конфігурування SessionFactory. У конфігурації вкажи entity-клас Animal.
+Під час конфігурування як драйвер необхідно використовувати &quot;com.mysql.jdbc.Driver&quot;, URL &quot;jdbc:mysql://localhost:3306 /test&quot;, діалект &quot;org.hibernate.dialect.MySQLDialect&quot;, користувача &quot;root&quot; і такий самий пароль.
+
+
+Требования:
+1.	У методі main повинен створюватись об&#39;єкт класу Properties.
+2.	До об&#39;єкта класу Properties повинні додаватися параметри, перелічені в умови завдання.
+3.	У методі main повинен створюватись об&#39;єкт класу Configuration.
+4.	У об&#39;єкта класу Configuration повинен бути викликаний метод setProperties із правильним параметром.
+5.	У об&#39;єкта класу Configuration повинен бути викликаний метод addAnnotatedClass із правильним параметром.
+6.	У методі main повинен бути створений об&#39;єкт класу SessionFactory за допомогою методу buildSessionFactory конфігурації.
+
+
