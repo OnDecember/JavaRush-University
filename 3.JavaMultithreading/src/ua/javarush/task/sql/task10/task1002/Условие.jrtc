@@ -1,0 +1,15 @@
+taskKey="ua.javarush.task.sql.task10.task1002"\n\nМетод uniqueResult
+
+Якщо раніше не підключав залежності, підключи їх. Для цього використовуй Alt+Ctrl+Shift+S (в IDEA), вкладка Libraries.
+Залежності можна завантажити тут: https://javarush.com/downloads/ide/javarush/hibernate.zip
+Архів розпакуй, і кожну залежність додай до модуля. Ця частина завдання не перевіряється, але якщо її не зробити, ти не зможеш локально виконувати код.
+
+У методі getDirector отримай сесію з MySessionFactory.getSessionFactory(). Напиши запит на hql для отримання Employee у якого smth = &#39;director&#39;.
+Результатом запиту очікується одне значення, поверни його у методі getDirector.
+
+
+Требования:
+1.	Метод getDirector повинен відкривати сесію за допомогою SessionFactory, що повертається методом getSessionFactory.
+2.	Метод getDirector повинен повернути об&#39;єкт Employee відповідно до умови.
+
+

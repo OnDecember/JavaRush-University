@@ -1,0 +1,20 @@
+taskKey="ua.javarush.task.sql.task10.task1009"\n\nФункції в HQL
+
+Якщо раніше не підключав залежності, підключи їх. Для цього використовуй Alt+Ctrl+Shift+S (в IDEA), вкладка Libraries.
+Залежності можна завантажити тут: https://javarush.com/downloads/ide/javarush/hibernate.zip
+Архів розпакуй, і кожну залежність додай до модуля. Ця частина завдання не перевіряється, але якщо її не зробити, ти не зможеш локально виконувати код.
+
+У методі getSalaryFund отримай сесію з MySessionFactory.getSessionFactory().
+Напиши запит на hql для отримання суми значень колонки salary.
+Метод getSalaryFund повинен повернути суму.
+
+У методі getAverageAge отримай сесію з MySessionFactory.getSessionFactory().
+Напиши запит на hql для отримання середнього значення колонки age.
+Метод getAverageAge повинен повернути середнє значення.
+
+
+Требования:
+1.	Методи getSalaryFund і getAverageAge повинні відкривати сесію за допомогою SessionFactory, що повертається методом getSessionFactory.
+2.	Методи getSalaryFund та getAverageAge повинні повертати числа відповідно до умови.
+
+

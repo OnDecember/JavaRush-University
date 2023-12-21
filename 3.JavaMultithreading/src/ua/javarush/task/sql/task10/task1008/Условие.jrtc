@@ -1,0 +1,16 @@
+taskKey="ua.javarush.task.sql.task10.task1008"\n\nsetFirstResult і setMaxResults
+
+Якщо раніше не підключав залежності, підключи їх. Для цього використовуй Alt+Ctrl+Shift+S (в IDEA), вкладка Libraries.
+Залежності можна завантажити тут: https://javarush.com/downloads/ide/javarush/hibernate.zip
+Архів розпакуй, і кожну залежність додай до модуля. Ця частина завдання не перевіряється, але якщо її не зробити, ти не зможеш локально виконувати код.
+
+У методі getSorted отримай сесію з MySessionFactory.getSessionFactory().
+Напиши запит на hql для отримання списку Employee, відсортованих за віком. Запит повинен повернути 10 Employee з 5.
+Метод getSorted повинен повернути отриманий список.
+
+
+Требования:
+1.	Метод getSorted повинен відкривати сесію за допомогою SessionFactory, що повертається методом getSessionFactory.
+2.	Метод getSorted повинен повертати список Employee згідно з умовою.
+
+
