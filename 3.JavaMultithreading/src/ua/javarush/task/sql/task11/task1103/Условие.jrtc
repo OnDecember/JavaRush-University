@@ -1,0 +1,15 @@
+taskKey="ua.javarush.task.sql.task11.task1103"\n\nДістаємо неіснуючий об'єкт з БД
+
+Спробуй дістати з БД об&#39;єкт класу Animal з id + 1. Використовуй методи get(), load() та find() об&#39;єкта session.
+Результат запиши в поля animalGet, animalLoad та animalFind відповідно.
+Запусти програму та переконайся, що значення полів animalGet та animalFind дорівнюють null,
+а значення animalLoad не дорівнює null.
+
+
+Требования:
+1.	У методі main у об&#39;єкта класу Session має бути викликаний метод get з параметрами Animal.class та id+1.
+2.	У методі main у об&#39;єкта класу Session має бути викликаний метод load з параметрами Animal.class та id+1.
+3.	У методі main у об&#39;єкта класу Session має бути викликаний метод find із параметрами Animal.class та id+1.
+4.	Після роботи програми значення полів animalGet і animalFind повинні дорівнювати null, а значення animalLoad &mdash; не дорівати null.
+
+
