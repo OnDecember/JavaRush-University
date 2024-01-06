@@ -1,0 +1,13 @@
+taskKey="ua.javarush.task.sql.task13.task1301"\n\nРозміщення анотацій
+
+Є клас-ентіті Author. Автор може мати статті articles. Додай анотації перед полем articles у класі Author, щоб програма коректно обробляла дані з таблиць:
+- таблиця author з колонками id, first_name, last_name, full_name;
+- таблиця author_article з колонками author_id, article.
+
+
+Требования:
+1.	У поля articles має бути анотація @ElementCollection.
+2.	У поля articles має бути анотація @CollectionTable із зазначенням імені допоміжної таблиці та колонки з id автора.
+3.	У полі articles повинна бути анотація @Column із зазначенням колонки зі статтею у допоміжній таблиці.
+
+

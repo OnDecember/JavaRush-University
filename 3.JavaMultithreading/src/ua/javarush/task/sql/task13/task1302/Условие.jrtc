@@ -1,0 +1,15 @@
+taskKey="ua.javarush.task.sql.task13.task1302"\n\nРозміщення анотацій
+
+Є клас-ентіті Author. Автор може мати досягнення achievements. Не всі досягнення однаково цінні, тому вони впорядковані за допомогою achievement_index і зберігаються у списку List.
+
+Додай анотації перед полем achievements у класі Author, щоб програма коректно обробляла дані з таблиць:
+- таблиця author з колонками id, first_name, last_name, full_name;
+- таблиця author_achievement з колонками author_id, achievement, achievement_index.
+
+
+Требования:
+1.	У поля achievements має бути анотація @ElementCollection.
+2.	У поля achievements має бути анотація @CollectionTable із зазначенням імені допоміжної таблиці та колонки з id автора.
+3.	У поля achievements має бути анотація @Column із зазначенням колонки з досягненням у допоміжній таблиці.
+
+
