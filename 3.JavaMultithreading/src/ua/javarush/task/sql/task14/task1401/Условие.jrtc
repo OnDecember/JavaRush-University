@@ -1,0 +1,18 @@
+taskKey="ua.javarush.task.sql.task14.task1401"\n\nПараметр fetch
+
+Є три класи-ентіті: Author, Book та Publisher. У Author та Publisher не вистачає анотацій на полях books.
+
+Додай їм анотації OneToMany та JoinColumn. Зроби так, щоб під час завантаження сутностей Author або Publisher
+з ними не завантажувалися їхні книги, а створювалися проксі об&#39;єкти.
+
+Відповідні таблиці:
+- таблиця publisher з колонками id, name, type, discoverer, discovery_date;
+- таблиця author з колонками id, first_name, last_name, full_name;
+- таблиця book з колонками id, title, author_id, publisher_id, publication_year, isbn.
+
+
+Требования:
+1.	У полів books мають бути анотація JoinColumn з іменами колонок.
+2.	У полів books повинні бути анотація OneToMany з правильним параметром fetch.
+
+

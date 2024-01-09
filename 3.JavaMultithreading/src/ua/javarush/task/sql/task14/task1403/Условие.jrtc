@@ -1,0 +1,14 @@
+taskKey="ua.javarush.task.sql.task14.task1403"\n\nLazyCollectionOption.EXTRA
+
+Є два класи-ентіті: Employee та StatisticView.
+
+У Employee заміни параметр fetch анотації OneToMany на анотацію LazyCollection із значенням EXTRA.
+Анотацію JoinColumn заміни на OrderColumn з тим самим параметром.
+
+
+Требования:
+1.	У полі statistics має бути анотація LazyCollection з правильним параметром.
+2.	У полі statistics має бути анотація OrderColumn з правильним параметром.
+3.	У полі статистики не повинно бути анотації JoinColumn.
+
+

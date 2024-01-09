@@ -1,0 +1,16 @@
+taskKey="ua.javarush.task.sql.task14.task1402"\n\nАнотація LazyCollection
+
+Є три класи-ентіті: Author, Book та Publisher.
+
+У Author та Publisher заміни параметр fetch анотації OneToMany на еквівалентну анотацію LazyCollection.
+
+Відповідні таблиці:
+- таблиця publisher з колонками id, name, type, discoverer, discovery_date;
+- таблиця author з колонками id, first_name, last_name, full_name;
+- таблиця book з колонками id, title, author_id, publisher_id, publication_year, isbn.
+
+
+Требования:
+1.	У полів books повинні бути анотації LazyCollection з правильним параметром.
+
+
